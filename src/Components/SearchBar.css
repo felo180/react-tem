@@ -1,0 +1,46 @@
+.e_searchbar {
+  margin-top: 1rem;
+}
+.pader {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  position: relative;
+  width: 100%;
+}
+.row2 {
+  display: flex;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  width: 100%;
+}
+.search_row {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.3rem;
+  align-items: stretch;
+  width: 100%;
+  box-shadow: 0 2px 8px 0 rgb(34 41 47 / 14%);
+  border-radius: 0.3rem;
+  border: none;
+}
+.search_product {
+  padding: 0.438rem 1rem;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  border: none;
+  height: 35px;
+}
+
+.search_product:focus {
+  outline: none;
+}
+
+.icon_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}

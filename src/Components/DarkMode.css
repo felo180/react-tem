@@ -1,0 +1,21 @@
+#darkMode {
+  height: 20px;
+  width: 20px;
+  font-size: 1.45rem;
+  margin-right: 1.1rem;
+  flex-shrink: 0;
+  color: #625f6e;
+  line-height: 1.45;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+  #darkMode {
+    margin-right: 2px;
+  }
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  cursor: pointer;
+  color: yellow;
+}

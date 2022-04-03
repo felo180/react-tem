@@ -1,0 +1,240 @@
+.navbar {
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+  position: fixed;
+  width: calc(100% - 4rem - 260px);
+  margin: 1.3rem 2rem 0;
+  border-radius: 0.428rem;
+  right: 0;
+  display: flex;
+  height: 3.8rem;
+  background: var(--background-color);
+}
+
+nav {
+  z-index: 17;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+  .emojy {
+    display: none !important;
+  }
+  .navbar {
+    width: calc(100% - 2.4rem) !important;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+  }
+  .icon_f5 {
+    display: inline !important;
+    height: 20px;
+    width: 20px;
+    font-size: 1.45rem;
+    flex-shrink: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #625f6e;
+  }
+  .icon_f {
+    margin: 0;
+  }
+
+  .icon_f2 {
+    margin: 0;
+  }
+  .right_nav {
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .nav_link {
+    margin: 0 2px 0 0;
+    padding: 0 !important;
+  }
+  .nav_items {
+    margin: 0 2px 0 0;
+  }
+  .user_name {
+    display: none !important;
+  }
+  .counter1 {
+    right: -10px !important;
+  }
+  .counter2 {
+    right: -10px !important;
+  }
+}
+.navbar_contatiner {
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1200px) {
+  .emojy {
+    display: none !important;
+  }
+  .user_name {
+    display: none !important;
+  }
+  .right_nav {
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 576px) {
+  .navbar-container {
+    padding: 0.8rem 1.4rem;
+  }
+}
+
+.emojy {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.icon_f {
+  height: 20px;
+  width: 20px;
+  font-size: 1.45rem;
+  flex-shrink: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #625f6e;
+}
+.icon_f5 {
+  display: none;
+}
+
+.icon_f2 {
+  height: 20px;
+  width: 20px;
+  font-size: 1.45rem;
+  flex-shrink: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #ff9f43;
+}
+
+.nav_ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.nav_li {
+  line-height: 1.5;
+}
+
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_link {
+  padding: 0 0.5rem;
+  color: #6e6b7b;
+  position: relative;
+}
+.small_logo {
+  width: 22px;
+  height: 14px;
+}
+.small_logo2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.small_text {
+  margin-left: 0.5rem;
+  color: #6e6b7b;
+}
+.nav_sapn {
+  display: flex;
+  padding: 0 0.5rem;
+  color: #6e6b7b;
+  position: relative;
+  align-items: center;
+}
+.user_name {
+  float: left;
+  margin-right: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #6e6b7b;
+}
+.user_p {
+  line-height: 1.5rem;
+  margin: 0 0 0 0.2rem;
+  display: inline-block;
+  font-weight: 600;
+}
+.user_span {
+  font-size: smaller;
+}
+.user_profile {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 0.857rem;
+  font-weight: 600;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+}
+.online_logo {
+  border: 1px solid #fff;
+  position: absolute;
+
+  bottom: 0px;
+  right: 6px;
+  min-height: 11px;
+  min-width: 11px;
+  background-color: #28c76f;
+  font-size: calc(11.2px);
+  border-radius: 50%;
+}
+
+.counter1 {
+  border: 1px solid #fff;
+  position: absolute;
+
+  top: -15px;
+  right: 15px;
+  min-height: 18px;
+  min-width: 18px;
+  background-color: #7367f0;
+  font-size: calc(11.2px);
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
+
+.counter2 {
+  border: 1px solid #fff;
+  position: absolute;
+
+  top: -15px;
+  right: 15px;
+  min-height: 18px;
+  min-width: 18px;
+  background-color: #ea5455;
+  font-size: calc(11.2px);
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
